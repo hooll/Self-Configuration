@@ -145,6 +145,9 @@ dns:
     - tls://223.6.6.6:853
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+  nameserver-policy:
+    ss.jizhexka.ggff.net: "https://dns.alidns.com/dns-query"
+    cloudflare-ech.com: "https://dns.alidns.com/dns-query"
 
 # URL 重写(Stash)
 url-rewrite:
